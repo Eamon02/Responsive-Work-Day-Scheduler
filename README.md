@@ -12,6 +12,12 @@ Big thanks to [Jeff Woda](https://github.com/wodaje), couldn't have gotten so fa
 Youtube:
 [dcode](https://www.youtube.com/watch?v=fB9KRePY9-w&list=PLVvjrrRCBy2LWFkR7opQxWp4z0en6OHgw&index=3)
 
+
+## Screenshots
+
+![Header](./Assets/Header.png)
+![Body](./Assets/Body.png)
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
