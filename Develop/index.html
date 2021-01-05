@@ -37,79 +37,20 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p id="currentTime" class="lead"></p>
     </header>
 
-
-    <div class="container row">
-      <!-- Time and Activity Push -->
-      <div class="col s6">
-        <h3>Time</h3>
-      </div>
-
-      <div class="col s6">
-        <h3>Activity</h3>
-      </div>
-
-      <div class="col s6">
-        <form action="" class="input-field">
-          <input type="text" class="timepicker showClearBtn" placeholder="Enter Time">
-        </form>
-      </div>
-
-      <div class="col s5">
-        <form action="" class="input-field">
-          <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate">
-          <label for="activity">
-          </label>
-        </form>
-      </div>
-      <div class="col s1">
-        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-      </div>
-
-    </div>
-
     <!-- TABLE -->
-    <table class="highlight striped">
+    <table class="striped" id="table">
       <thead>
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-            <th>Status</th>
+        <tr class="center">
+            <th class="col s2 center">Time</th>
+            <th class="col s8 center">Activity</th>
+            <th class="col s1 center">Save</th>
         </tr>
       </thead>
-
-      <tbody>
-        <tr>
-          <td>Alvin</td>
-          <td>Eclair</td>
-          <td>
-            <label>
-              <input type="checkbox" class="filled-in"/>
-              <span></span>
-            </label>
-          </td>
-        </tr>
-        <tr>
-          <td>Alan</td>
-          <td>Jellybean</td>
-          <td>
-            <label>
-              <input type="checkbox" class="filled-in"/>
-              <span></span>
-            </label>
-          </td>
-        </tr>
-        <tr>
-          <td>Jonathan</td>
-          <td>Lollipop</td>
-          <td>
-            <label>
-              <input type="checkbox" class="filled-in"/>
-              <span></span>
-          </label>
-        </td>
-        </tr>
+      <tbody class="table-body">
+       <!-- Insert table rows --> 
       </tbody>
     </table>
 
@@ -117,8 +58,7 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./time.js">
-    </script> 
+    <script src="./time.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 

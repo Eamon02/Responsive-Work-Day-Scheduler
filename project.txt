@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+         <!-- Font awesome css -->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+         <!-- CSS -->
+         <link href="style.css" rel="stylesheet">
+
+        <title>Real Muscle</title>
+
+
+    </head>
+
+    
+        <body>
+            <div class="navbar-fixed">
+                <nav class="red">
+                    <div class="container-fluid">
+                        <div class="nav-wrapper">
+                            <a href="#" class="brand-logo">Real Muscle</a>
+                            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+                            <ul class="right hide-on-med-and-down">
+                                <li>   
+                                    <a href="#home">Home</a>
+                                </li> 
+                                <li>
+                                    <a href="#popular">Popular Places</a>
+                                </li>
+                                <li>
+                                    <a href="#gallery">Gallery</a>
+                                </li>
+                            </ul>   
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Inside Burger -->
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a href="#home">Home</a>
+                </li> 
+                <li>
+                    <a href="#popular">Popular Places</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+            </ul>
+                                                <!-- Main Body  -->
+            
+            <!-- adress field -->
+        <div class="row">
+            <div class="input-field col s10">
+                <input placeholder="Address" id="Address_filed" type="text" class="validate">
+                <label for="address"></label>
+            </div>
+                <!-- Button -->
+            <a class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">add</i></a>
+        </div>
+
+        <!-- Carousel -->
+        <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2">Remove</a>
+            </div>
+            <div class="carousel-item red white-text" href="#one!">
+              <h2>Propery Name</h2>
+              <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <h2>Propery Name</h2>
+              <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <h2>Propery Name</h2>
+              <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+              <h2>Propery Name</h2>
+              <p class="white-text">This is your fourth panel</p>
+            </div>
+          </div>        
+
+        
+            <!-- Footer -->
+        <footer class="page-footer">
+            <div class="footer-copyright">
+                <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+
+
+
+            <!-- Compiled and minified JavaScript from materialize -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+         <script>
+             //Sidenav
+             $(document).ready(function(){
+             $('.sidenav').sidenav();
+             });
+
+             //Carousel
+             $('.carousel.carousel-slider').carousel({
+             fullWidth: true,
+             indicators: true
+             });
+
+         </script>
+ 
+          <!-- js references -->
+         <script src="./script/api.js"></script>
+         <script src="./script/main.js"></script>
+
+          
+        </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- Burger HTML (needs citation!)
+                                <div id="mySidenav" class="sidenav sidenav-trigger" data-target="mobile-nav">
+                                    
+                                    <div id="main">
+                                        <span style="cursor:pointer" onclick="openNav(); closeNav()">
+                                            <div class="container" onclick="myFunction(this)">
+                                            <div class="bar1"></div>
+                                            <div class="bar2"></div>
+                                            <div class="bar3"></div>
+                                            </div>
+                                        </span>
+                                    </div>
+                        
+                                <ul class="right hide-on-med-and-down">
+                                    Nav Links
+                                    <li class="active">
+                                        <a href="#home">Home</a>
+                                    </li>
+                                </ul> -->

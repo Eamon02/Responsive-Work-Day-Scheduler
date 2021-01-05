@@ -1,5 +1,17 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+
+## Link To Live Site
+
+[Link](https://eamon02.github.io/Responsive-Work-Day-Scheduler/)
+
+## Sources
+
+Big thanks to [Jeff Woda](https://github.com/wodaje), couldn't have gotten so far with JS without him. 
+
+Youtube:
+[dcode](https://www.youtube.com/watch?v=fB9KRePY9-w&list=PLVvjrrRCBy2LWFkR7opQxWp4z0en6OHgw&index=3)
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.

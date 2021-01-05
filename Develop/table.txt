@@ -1,0 +1,182 @@
+<table class="striped" id="table">
+      <thead>
+        <tr class="center">
+            <th class="col s2 center">Time</th>
+            <th class="col s8 center">Activity</th>
+            <th class="col s1 center">Save</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            9:00 AM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            10:00 AM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            11:00 AM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            12:00 PM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            1:00 PM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            2:00 PM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            3:00 PM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            4:00 PM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <!-- Time -->
+          <td class="col s2 center hour">
+            5:00 PM
+          </td>
+          <!-- Activity -->
+          <td>
+            <form action="" class="input-field">
+              <input placeholder="Enter Activity" id="activity_filed" type="text" class="validate col s8 center">
+              <label for="activity">
+              </label>
+          </td>
+          <!-- Status Button -->
+          <td>
+            <div class="col s1 center">
+              <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
