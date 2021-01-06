@@ -49,7 +49,7 @@ textarea{
 }
 
 .present {
-  background-color: #77dd77;
+  background-color: #77dd77 !important;
   color: white;
 }
 

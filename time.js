@@ -6,15 +6,23 @@ var datetime = null,
 
 var update = function () {
     date = moment(new Date())
-    dateRef = new Date()
+   // dateRef = new Date()
     datetime.html(date.format('dddd, MMMM Do YYYY, h:mm:ss a'));
     // Time(dateRef);
 };
+
+
+
 
 $(document).ready(function(){
     datetime = $('#currentDay')
     update();
     setInterval(update, 1000);
+
+presentPast();
+setInterval(presentPast, 1000);
+
+
 });
 
 // function Time(dateRef){
@@ -123,31 +131,37 @@ function reload(){
 }
 
 
+//location.refresh
 
 // //changes css based on time
-hourArray.forEach(function(hour){
-    let rowHour = $(`#time-${hour}`);
-    let T = m.hour()
 
-    console.log(hour)
-    console.log(T)
 
-    if (parseInt(hour) === T) {
-        rowHour.addClass("present")
-    }
 
-    else if (parseInt(hour) < T) {
-        rowHour.removeClass("present")
-        rowHour.addClass("past")
-        past()
-    }
 
-    else if (parseInt(hour) > T) {
-        rowHour.removeClass("present")
-        rowHour.removeClass("past")
-    }
-})
+function presentPast() {
 
-function past() {
+    //console.log("testing every second");
+    hourArray.forEach(function(hour){
+        let rowHour = $(`#time-${hour}`);
+        let T = m.hour()
+    
+        console.log(hour)
+        console.log(T)
+    
+        if (parseInt(hour) === T) {
+            rowHour.addClass("present")
+        }
+    
+        else if (parseInt(hour) < T) {
+            rowHour.removeClass("present")
+            rowHour.addClass("past")
+      
+        }
+    
+        else if (parseInt(hour) > T) {
+            rowHour.removeClass("present")
+            rowHour.removeClass("past")
+        }
+    })
 
-}
+};
