@@ -11,7 +11,6 @@ SO THAT I can manage my time effectively
 ```
 
 ## [Check it Out](https://eamon02.github.io/Responsive-Work-Day-Scheduler/)
----
 ![Header](./Assets/Header.png)
 ![Body](./Assets/Body.png)
 
