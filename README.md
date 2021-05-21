@@ -24,5 +24,5 @@ Youtube:
 ## Built With
 
 * [jQuery](https://jquery.com/) - Front-end framework 
-* [Materialie](https://materializecss.com/about.html) - CSS framework
+* [Materialize](https://materializecss.com/about.html) - CSS framework
 * [Moment.js](https://momentjs.com/) - javaScript library 
